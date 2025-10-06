@@ -17,7 +17,7 @@ import uuid
 from datetime import datetime
 
 # Importar el servicio OMR
-from omr_service import (
+from .omr_service import (
     extract_answers, 
     compare_answers, 
     calibrate_from_sample,
