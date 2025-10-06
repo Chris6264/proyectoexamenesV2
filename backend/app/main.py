@@ -25,6 +25,7 @@ from .omr_service import (
     save_config,
     load_config
 )
+os.makedirs("debug_omr", exist_ok=True)
 
 # Inicializar FastAPI
 app = FastAPI(
